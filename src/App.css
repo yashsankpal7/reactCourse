@@ -1,0 +1,105 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 400;
+  background-size: cover;
+  height: 100vh;
+}
+
+.App {
+  background-image: url(../public/josh-appel-NeTPASr-bmQ-unsplash.jpg);
+  /* width: 100vh; */
+  height: 100vh;
+  background-size:cover;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  overflow: auto;
+  flex-direction: column;
+  /* filter: blur(.2rem); */
+}
+
+.App-Text{
+  margin-top: 2rem;
+  /* border: .5rem solid rgba(189, 155, 25, .1); */
+  box-shadow: 1rem 1rem 1rem black;
+  border-radius: 1rem;
+  font-size: 2rem;
+  padding: 1rem 1.5rem;
+  display: block;
+  background-color: rgba(189, 155, 25, .2);
+  backdrop-filter: blur(5px);
+  width: 50rem;
+  /* -webkit-backdrop-filter: blur(1px); */
+}
+
+.App-Image-Box{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem 0;
+  width: 80rem;
+}
+
+.App-Image{
+  margin: 1rem;
+  padding: 1rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20rem;
+  height: 10rem;
+  border: 1rem solid rgba(188,143,143, .4);
+}
+
+.pic1{
+  background-size: cover;
+  background-image: url('./shot-stash-hands-holding-money-aflame.jpg');
+}
+
+.pic2{
+  background-size: cover;
+  background-image: url('./shot-stash-red-stock-graph-chart.jpg');
+}
+
+.pic3{
+  background-size: cover;
+  background-image: url('./shot-stash-turntable-sat-in-a-store-window.jpg');
+}
+
+.pic4{
+  background-size: cover;
+  background-image: url('./shot-stash-vintage-desk-typewriter-man-hands-1.jpg');
+}
+
+.pic5{
+  background-size: cover;
+  background-image: url('./shot-stash-yellow-white-spring-flower.jpg');
+}
+
+.pic6{
+  background-size: cover;
+  background-image: url('./pencils-rainbow.jpg');
+}
+
+.App-Box{
+  margin: 1rem 0;
+  border-radius: 1rem;
+  background-color: rgba(0,255,255,.2);
+  backdrop-filter: blur(5px);
+  padding: 10rem;
+}
+
+.App-Head{
+  border-radius: 1rem;
+  padding: .5rem;
+  display: block;
+  background-color: rgba(0,255,255,.5);
+  backdrop-filter: blur(5px);
+}
