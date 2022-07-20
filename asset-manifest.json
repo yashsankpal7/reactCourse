@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/reactCourse/static/css/main.f308a210.css",
+    "main.js": "/reactCourse/static/js/main.f929dc23.js",
+    "static/js/787.28cb0dcd.chunk.js": "/reactCourse/static/js/787.28cb0dcd.chunk.js",
+    "static/media/shot-stash-red-stock-graph-chart.jpg": "/reactCourse/static/media/shot-stash-red-stock-graph-chart.7e8d91e218720d2b6bad.jpg",
+    "static/media/shot-stash-yellow-white-spring-flower.jpg": "/reactCourse/static/media/shot-stash-yellow-white-spring-flower.26a6fa543b03d9a4f737.jpg",
+    "static/media/shot-stash-vintage-desk-typewriter-man-hands-1.jpg": "/reactCourse/static/media/shot-stash-vintage-desk-typewriter-man-hands-1.0cd0676c21de3e940208.jpg",
+    "static/media/josh-appel-NeTPASr-bmQ-unsplash.jpg": "/reactCourse/static/media/josh-appel-NeTPASr-bmQ-unsplash.cde9aca8cce07631cd1d.jpg",
+    "static/media/pencils-rainbow.jpg": "/reactCourse/static/media/pencils-rainbow.e3acd461ee1c81d152ca.jpg",
+    "static/media/shot-stash-hands-holding-money-aflame.jpg": "/reactCourse/static/media/shot-stash-hands-holding-money-aflame.a580c58bcd84f5af1cc4.jpg",
+    "static/media/shot-stash-turntable-sat-in-a-store-window.jpg": "/reactCourse/static/media/shot-stash-turntable-sat-in-a-store-window.64a8834ef0f176251d91.jpg",
+    "index.html": "/reactCourse/index.html",
+    "main.f308a210.css.map": "/reactCourse/static/css/main.f308a210.css.map",
+    "main.f929dc23.js.map": "/reactCourse/static/js/main.f929dc23.js.map",
+    "787.28cb0dcd.chunk.js.map": "/reactCourse/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f308a210.css",
+    "static/js/main.f929dc23.js"
+  ]
+}
