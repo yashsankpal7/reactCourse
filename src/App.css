@@ -93,7 +93,7 @@ body {
   border-radius: 1rem;
   background-color: rgba(0,255,255,.2);
   backdrop-filter: blur(5px);
-  padding: 10rem;
+  padding: 5rem;
 }
 
 .App-Head{
@@ -102,4 +102,8 @@ body {
   display: block;
   background-color: rgba(0,255,255,.5);
   backdrop-filter: blur(5px);
+}
+
+.App-Carousel{
+  margin: 2rem 0;
 }
