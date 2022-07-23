@@ -21,6 +21,7 @@ import Classwork9 from './components/classwork9';
 import Classwork10 from './components/classwork10';
 import Classwork11 from './components/classwork11';
 import Classwork12 from './components/classwork12';
+import Classwork13 from './components/classwork13';
 import Assignment14 from './components/Assignment14';
 import Assignment16 from './components/Assignment16';
 import Assignment17 from './components/Assignment17';
@@ -57,6 +58,7 @@ import Assignment15 from './components/Assignment15';
             <Classwork10/>
             <Classwork11/>
             <Classwork12/>
+            <Classwork13/>
             <div className='App-Box'> ------- </div>
             <Assignment8/>
             <Assignment9/>
