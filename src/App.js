@@ -11,7 +11,6 @@ import Classwork5 from './components/classwork5';
 import Classwork6 from './components/classwork6';
 import Assignment8 from './components/Assignment8';
 import Assignment9 from './components/Assignment9';
-import Assigment10 from './components/Assigment10';
 import Assignment11 from './components/Assignment11';
 import Assignment12 from './components/Assignment12';
 import Assignment13 from './components/Assignment13';
@@ -31,6 +30,10 @@ import Assignment20 from './components/Assignment20';
 import Assignment15 from './components/Assignment15';
 
 // import pic1 from ""
+import Assignment10 from './components/Assignment10';
+import Assignment21 from './components/Assignment21';
+import Assignment22 from './components/Assignment22';
+import Assignment23 from './components/Assignment23';
 
 
 // use function app when function will be thought
@@ -62,7 +65,7 @@ import Assignment15 from './components/Assignment15';
             <div className='App-Box'> ------- </div>
             <Assignment8/>
             <Assignment9/>
-            <Assigment10/>
+            <Assignment10/>
             <Assignment11/>
             <Assignment12/>
             <Assignment13/>
@@ -73,6 +76,9 @@ import Assignment15 from './components/Assignment15';
             <Assignment18/>
             <Assignment19/>
             <Assignment20/>
+            <Assignment21/>
+            <Assignment22/>
+            <Assignment23/>
           </div>
         </Wrap>
       )

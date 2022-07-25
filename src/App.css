@@ -267,3 +267,7 @@ body {
 .Clock-Box{
   padding: 15rem !important;
 }
+
+.text-box-medium{
+  font-size: 1rem !important;
+}
