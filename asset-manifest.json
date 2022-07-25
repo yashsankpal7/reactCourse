@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reactCourse/static/css/main.786bc623.css",
-    "main.js": "/reactCourse/static/js/main.b7565be1.js",
+    "main.css": "/reactCourse/static/css/main.589b79af.css",
+    "main.js": "/reactCourse/static/js/main.ddb333cb.js",
     "static/js/787.28cb0dcd.chunk.js": "/reactCourse/static/js/787.28cb0dcd.chunk.js",
     "static/media/shot-stash-red-stock-graph-chart.jpg": "/reactCourse/static/media/shot-stash-red-stock-graph-chart.7e8d91e218720d2b6bad.jpg",
     "static/media/shot-stash-yellow-white-spring-flower.jpg": "/reactCourse/static/media/shot-stash-yellow-white-spring-flower.26a6fa543b03d9a4f737.jpg",
@@ -11,12 +11,12 @@
     "static/media/shot-stash-hands-holding-money-aflame.jpg": "/reactCourse/static/media/shot-stash-hands-holding-money-aflame.a580c58bcd84f5af1cc4.jpg",
     "static/media/shot-stash-turntable-sat-in-a-store-window.jpg": "/reactCourse/static/media/shot-stash-turntable-sat-in-a-store-window.64a8834ef0f176251d91.jpg",
     "index.html": "/reactCourse/index.html",
-    "main.786bc623.css.map": "/reactCourse/static/css/main.786bc623.css.map",
-    "main.b7565be1.js.map": "/reactCourse/static/js/main.b7565be1.js.map",
+    "main.589b79af.css.map": "/reactCourse/static/css/main.589b79af.css.map",
+    "main.ddb333cb.js.map": "/reactCourse/static/js/main.ddb333cb.js.map",
     "787.28cb0dcd.chunk.js.map": "/reactCourse/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.786bc623.css",
-    "static/js/main.b7565be1.js"
+    "static/css/main.589b79af.css",
+    "static/js/main.ddb333cb.js"
   ]
 }
