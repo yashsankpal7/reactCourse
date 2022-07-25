@@ -114,6 +114,14 @@ body {
   background-color: rgba(24, 60, 60, 0.8);
   padding: 1rem 1.5rem;
   border-radius: 1rem;
+  text-align: right !important;
+  overflow: hidden;
+  scrollbar-width: none;
+  overflow-x: scroll;
+}
+
+.timerBox::-webkit-scrollbar{
+  display: none;
 }
 
 .vr{
@@ -126,6 +134,13 @@ body {
   padding: 1rem !important;
   font-size: 1.5rem !important;
   background-color: rgba(24, 60, 60, 0.8) !important;
+  width: 10rem !important;
+}
+
+.CalBtn{
+  padding: 1rem !important;
+  font-size: 1.5rem !important;
+  /* background-color: rgba(24, 60, 60, 0.8) !important; */
   width: 10rem !important;
 }
 

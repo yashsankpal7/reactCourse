@@ -34,6 +34,8 @@ import Assignment10 from './components/Assignment10';
 import Assignment21 from './components/Assignment21';
 import Assignment22 from './components/Assignment22';
 import Assignment23 from './components/Assignment23';
+import Assignment24 from './components/Assignment24';
+import Assignment26 from './components/Assignment26';
 
 
 // use function app when function will be thought
@@ -79,6 +81,11 @@ import Assignment23 from './components/Assignment23';
             <Assignment21/>
             <Assignment22/>
             <Assignment23/>
+            <Assignment24/>
+            {/* <Assignment25/> */}
+            <Assignment26/>
+            {/* <Assignment27/> */}
+            {/* <Assignment28/> */}
           </div>
         </Wrap>
       )

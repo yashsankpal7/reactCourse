@@ -1,36 +1,65 @@
 import React, { Fragment, useState ,useRef} from 'react'
-import {Row,Col,Toast,Tooltip, Tabs,Tab,Table,Spinner, ProgressBar,OverlayTrigger,Popover,Placeholder,Pagination,Overlay,Offcanvas,Navbar,NavDropdown,Accordion, Alert, Badge, Breadcrumb, Button, ButtonGroup, Card, Carousel, CloseButton, Container, Dropdown, Figure, Image, ListGroup, Modal, Nav } from 'react-bootstrap'
+import {Stack,Row,Col,Toast,Tooltip, Tabs,Tab,Table,Spinner, ProgressBar,OverlayTrigger,Popover,Placeholder,Pagination,Overlay,Offcanvas,Navbar,NavDropdown,Accordion, Alert, Badge, Breadcrumb, Button, ButtonGroup, Card, Carousel, CloseButton, Container, Dropdown, Figure, Image, ListGroup, Modal, Nav } from 'react-bootstrap'
 
 const Assignment20 = () => {
   return (
     <Container className="App-Box">
+      <Stack garp={3}>
+      1
       <Alert_/>
+      2
       <Accordion_/>
+      3
       <Badge_/>
+      4
       <Breadcrumb_/>
+      5
       <Buttons_/>
+      6
       <ButtonGroup_/>
+      7
       <Cards_/>
+      8
       <Carousel_/>
+      9
       <CloseButton_/>
+      10
       <Dropdown_/>
+      11
       <Figures_/>
+      12
       <Images_/>
+      13
       <ListGroup_/>
+      14
       <Modal_/>
+      15
       <Navs_/>
+      16
       <Navbar_/>
+      17
       <OffCanvas_/>
+      18
       <Overlays_/>
+      20
       <Pagination_/>
+      21
       <Placeholder_/>
+      22
       <Popovers_/>
+      23
       <Progress_/>
+      24
       <Spinners_/>
+      25
       <Table_/>
+      26
       <Tabs_/>
+      27
       <Tooltips_/>
+      28
       <Toasts_/>
+      </Stack>
     </Container>
   )
 }
@@ -173,44 +202,43 @@ const Carousel_ = ()=>{
   return(
     <Fragment>
       <Carousel fade>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=373940"
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
-          alt="Second slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+            <Carousel.Item interval={500}>
+              <img
+                className="d-block w-100"
+                // src={require()}
+                src={require("../shot-stash-red-stock-graph-chart.jpg")}
+                alt="First slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item interval={500}>
+              <img
+                className="d-block w-100"
+                src={require("../shot-stash-turntable-sat-in-a-store-window.jpg")}
+                alt="First slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item interval={500}>
+              <img
+                className="d-block w-100"
+                src={require("../shot-stash-vintage-desk-typewriter-man-hands-1.jpg")}
+                alt="First slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item interval={500}>
+              <img
+                className="d-block w-100"
+                src={require("../shot-stash-hands-holding-money-aflame.jpg")}
+                alt="First slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item interval={500}>
+              <img
+                className="d-block w-100"
+                src={require("../pencils-rainbow.jpg")}
+                alt="First slide"
+              />
+            </Carousel.Item>
+          </Carousel>
     </Fragment>
   )
 }
@@ -249,7 +277,7 @@ const Figures_ = ()=>{
         width={171}
         height={180}
         alt="171x180"
-        src="holder.js/171x180"
+        src={require("../shot-stash-hands-holding-money-aflame.jpg")}
       />
       <Figure.Caption>
         Nulla vitae elit libero, a pharetra augue mollis interdum.
@@ -262,7 +290,7 @@ const Figures_ = ()=>{
 const Images_ = ()=>{
   return(
     <Fragment>
-      <Image rounded/>
+      <Image rounded src={require("../shot-stash-hands-holding-money-aflame.jpg")}/>
     </Fragment>
   )
 }
@@ -478,7 +506,7 @@ const Popovers_ = ()=>{
 const Progress_ = ()=>{
   return(
     <Fragment>
-      <ProgressBar animated now={45} />;
+      <ProgressBar animated now={45} />
 
     </Fragment>
   )
